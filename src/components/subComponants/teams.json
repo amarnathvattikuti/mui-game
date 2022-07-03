@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "team": "RCB",
+        "image": "https://mui.com/static/images/cards/paella.jpg"
+    },
+    {
+        "id": 2,
+        "team": "CSK",
+        "image": "https://mui.com/static/images/cards/contemplative-reptile.jpg"
+    },
+    {
+        "id": 3,
+        "team": "KKR",
+        "image": "https://mui.com/static/images/cards/paella.jpg"
+    },
+    {
+        "id": 4,
+        "team": "RR",
+        "image": "https://mui.com/static/images/cards/contemplative-reptile.jpg"
+    },
+    {
+        "id": 5,
+        "team": "MI",
+        "image": "https://mui.com/static/images/cards/paella.jpg"
+    }
+]
