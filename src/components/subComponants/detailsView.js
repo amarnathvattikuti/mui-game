@@ -49,11 +49,12 @@ export default function FullScreenDialog() {
         setInputs(values => ({ ...values, [name]: value }))
     }
 
-    const SaveTeam = (event) => {
-        event.preventDefault();
-        console.log('hit')
-        console.log(inputs);
+    const SaveTeam = (event) => {          
+       event.preventDefault();
+       console.log(inputs);  
+       alert('Team Has been Saved Successfully');      
     }
+
     return (
         <div>
             <Dialog

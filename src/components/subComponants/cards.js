@@ -30,8 +30,6 @@ export default function Cards(props) {
     });
 
     const SelectedTeams = (index, e) => {
-        // e.preventDefault();
-
         let CopyselectedArry = [...selectedTeam.objects];
         CopyselectedArry[index].toggled
             ? (CopyselectedArry[index].toggled = false) :
@@ -39,12 +37,8 @@ export default function Cards(props) {
 
         const selectedItems = CopyselectedArry[index].name;
 
-        // const selected = e.currentTarget.dataset.name;
         setSelectedTeam(values => ({ ...values, [selectedItems]: selectedItems }));
 
-
-        //setSelectedTeam(values => ({ ...values, [selected]: selected }));
-        console.log("selected:", selectedTeam)
         setShow(true)
 
     }

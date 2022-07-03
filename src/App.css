@@ -1,7 +1,9 @@
-.css-hip9hq-MuiPaper-root-MuiAppBar-root, .css-10ghrmp-MuiPaper-root-MuiAppBar-root{
+.css-hip9hq-MuiPaper-root-MuiAppBar-root, 
+.css-10ghrmp-MuiPaper-root-MuiAppBar-root, 
+.css-i9gxme, .css-1hyl1h2{
   background:#2f2651 !important ;
 }
-.css-m9glnp-MuiPaper-root-MuiDialog-paper{
+.css-m9glnp-MuiPaper-root-MuiDialog-paper, .css-1ctq51k{
   background:#321d6a !important ;
   color: white !important;
 }
